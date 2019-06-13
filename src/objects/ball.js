@@ -1,14 +1,15 @@
 export default class Ball {
     constructor(game) {
-        this.gameWidth = game.Width;
-        this.gameHeight = game.Height;
-        this.radius = 30;
         this.color = 'blue';
-        this.speed = 2;
+        this.gameHeight = game.Height;
+        this.gameWidth = game.Width;
         this.position = {
             x: 250,
             y: 150
         };
+        this.radius = 30;
+        this.speed = 2;
+
         console.log(this);
 
     }

@@ -2,8 +2,8 @@ import Ball from './objects/ball';
 
 export default class Game {
     constructor(gameWidth, gameHeight) {
-        this.Width = gameWidth;
         this.Height = gameHeight;
+        this.Width = gameWidth;
     }
 
     start() {
