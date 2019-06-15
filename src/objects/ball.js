@@ -8,7 +8,7 @@ export default class Ball {
             y: 150
         };
         this.radius = 30;
-        this.speed = 2;
+        this.speed = 1.5;
 
         console.log(this);
 

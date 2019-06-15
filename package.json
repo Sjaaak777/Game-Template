@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "matter-js": "^0.14.2",
     "parcel-bundler": "^1.12.3"
   }
 }
